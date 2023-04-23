@@ -1,0 +1,10 @@
+// プレビューファイルフォーム
+.wrapper {
+  & > * + * {
+    margin-top: 20px;
+  }
+  .preview {
+    display: block;
+    max-width: 500px;
+  }
+}
